@@ -31,3 +31,14 @@ body {
     color: var(--text-dark);
     background: var(--bg-light);
 }
+/* Header Styles */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: var(--gradient-dark);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
