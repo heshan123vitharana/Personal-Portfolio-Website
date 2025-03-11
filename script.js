@@ -5,7 +5,6 @@ const typed = new Typed('.typing-text', {
     backSpeed: 60,
     loop: true
 });
-
 // Scroll Reveal
 function reveal() {
     const reveals = document.querySelectorAll('.reveal');
