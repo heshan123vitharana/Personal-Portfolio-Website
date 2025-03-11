@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
     <!-- Background Circle -->
@@ -21,28 +20,4 @@
     <!-- Decorative Elements -->
     <circle cx="100" cy="100" r="85" stroke="#007BFF" stroke-width="2" fill="none" opacity="0.3"/>
     <circle cx="100" cy="100" r="80" stroke="#007BFF" stroke-width="2" fill="none" opacity="0.2"/>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background Circle -->
-    <circle cx="100" cy="100" r="90" fill="#007BFF" opacity="0.1"/>
-    
-    <!-- H Letter -->
-    <path d="M60 40 L60 160 M60 100 L90 100 M90 40 L90 160" 
-          stroke="#007BFF" 
-          stroke-width="12" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"/>
-    
-    <!-- W Letter -->
-    <path d="M110 40 L130 160 L150 40 L170 160" 
-          stroke="#007BFF" 
-          stroke-width="12" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"/>
-    
-    <!-- Decorative Elements -->
-    <circle cx="100" cy="100" r="85" stroke="#007BFF" stroke-width="2" fill="none" opacity="0.3"/>
-    <circle cx="100" cy="100" r="80" stroke="#007BFF" stroke-width="2" fill="none" opacity="0.2"/>
->>>>>>> 16317f69f418eb3aa7d74616ac0bb368841741ce
 </svg> 
