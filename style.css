@@ -804,3 +804,105 @@ nav {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .typing-text {
+        font-size: 1.2rem;
+    }
+
+    .skills, .interests {
+        padding: 1.5rem;
+    }
+    
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .database-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .interests-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .skill-tags {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .logo-img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .aws-logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Responsive Design for About Section */
+@media (max-width: 968px) {
+    .about-content {
+        gap: 3rem;
+    }
+
+    .about-description-container {
+        padding: 1.5rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+    }
+
+    .education, .skills, .interests {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-description-container {
+        padding: 1rem;
+    }
+
+    .education h3, .skills h3, .interests h3 {
+        font-size: 1.5rem;
+    }
+}
