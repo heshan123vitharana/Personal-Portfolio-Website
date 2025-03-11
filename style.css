@@ -77,3 +77,20 @@ nav {
     color: transparent;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+}
