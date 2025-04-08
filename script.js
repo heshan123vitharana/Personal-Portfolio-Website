@@ -34,12 +34,12 @@ reveal();
 // Mobile Menu Toggle
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
-const links = document.querySelectorAll('.nav-links li');
 
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
     
     // Animate links
+    const links = document.querySelectorAll('.nav-links li');
     links.forEach((link, index) => {
         if (link.style.animation) {
             link.style.animation = '';
@@ -50,6 +50,7 @@ hamburger.addEventListener('click', () => {
 });
 
 // Close mobile menu when clicking a link
+const links = document.querySelectorAll('.nav-links li');
 links.forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
@@ -107,4 +108,4 @@ function createParticles() {
 }
 
 // Initialize particles
-createParticles(); 
+createParticles();
